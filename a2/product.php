@@ -32,7 +32,7 @@
   <span class="dot" onclick="currentSlide(2)"></span> 
 </div>
 
-<h2>Matcha and Chestnut Mousse<br>$20.00  <select>
+<h2>Matcha and Chestnut Mousse(450g)<br>$20.00  <select>
   <option value="normal sugar">Normal Sugar</option>
   <option value="less sugar">Less Sugar</option>
 </select>
