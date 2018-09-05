@@ -41,7 +41,7 @@
 <form method='post' action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php?ref=product">
   <input name="id" type="submit" value="Buy">
   <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
-  <input type="number" id="number" value="0" min="0" max="10"/>
+  <input type="number" id="number" value="1" min="1" max="10"/>
   <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
 </form>
 </body>
@@ -69,15 +69,15 @@ function showSlides(n) {
 
 function increaseValue() {
   var value = parseInt(document.getElementById('number').value, 10);
-  value = isNaN(value) ? 0 : value;
+  value = isNaN(value) ? 1 : value;
   value++;
   document.getElementById('number').value = value;
 }
 
 function decreaseValue() {
   var value = parseInt(document.getElementById('number').value, 10);
-  value = isNaN(value) ? 0 : value;
-  value < 1 ? value = 1 : '';
+  value = isNaN(value) ? 1 : value;
+  value < 2 ? value = 2 : '';
   value--;
   document.getElementById('number').value = value;
 }
