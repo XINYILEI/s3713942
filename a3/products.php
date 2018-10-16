@@ -75,3 +75,4 @@ if (($handle = fopen("products.txt", "r")) !== FALSE) {
     </footer>
 
 </html>
+<?php include('/home/eh1/e54061/public_html/wp/debug.php'); ?>
