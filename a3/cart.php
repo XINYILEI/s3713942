@@ -20,3 +20,4 @@ session_start();
 
  </tr>
 </table>
+<?php include('/home/eh1/e54061/public_html/wp/debug.php'); ?>
